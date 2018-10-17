@@ -1,6 +1,6 @@
 ## Advance CMS/Blog Web Application using Laravel
 
-This was an assignment solution, built within 2 days using Laravel.
+This was an assignment challenge, built within 2 days using Laravel.
 
 The following was the requirement for the application :
 
@@ -43,16 +43,17 @@ The program does not need to have a great graphics, but it's a good interface an
 
 ```
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+####Instruction :
+- **Download the code**
+- **Create a an empty database**
+- **Import the file found in "_SQL_" folder in the database **
+- **Rename the .env.example file to .env**
+- **Enter database credentials in the .env file**
+- **Go to public folder and delete the "Storage" symlink**
+- **Open terminal in the projet directory and type php artisan storage:link to create new symlink**
+- **Login with the admin credentials : email - admin@koolcmsc.om | password 654321**
+- **That's it. Surf around the app and please do suggest improvements.**
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Ahmad W Khan](http://AhmadWKhan.com)**
+- Built by [Ahmad W Khan](http://AhmadWKhan.com)
