@@ -43,10 +43,10 @@ The program does not need to have a great graphics, but it's a good interface an
 
 ```
 
-#### Instruction :
+### Instruction :
 - **Download the code**
 - **Create a an empty database**
-- **Import the file found in "__SQL__" folder in the database **
+- **Import the file found in "\_SQL\_" folder in the database **
 - **Rename the .env.example file to .env**
 - **Enter database credentials in the .env file**
 - **Go to public folder and delete the "Storage" symlink**
