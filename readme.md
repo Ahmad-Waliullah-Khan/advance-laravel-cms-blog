@@ -1,23 +1,47 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+## Advance CMS/Blog Web Application using Laravel
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This was an assignment solution, built within 2 days using Laravel.
 
-## About Laravel
+The following was the requirement for the application :
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+```php
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+دٌف : ساخت یک وةلاگ ساده ة هٌراه یک CMS
+Goal : Build a simple blog with a CMS
+وةلاگ صانل ةخش اٌی زیر نی ةاصد
+The blog contains the following sections
+1. کارةران صانل س ىوع کارةر ةا نا یٌت ندیرسایت، ىویسيدگان و کارةران نی ةاصد
+1. Users include three types of users with the type of the administrator, authors and users
+الف - ندیر : کيترل کانل سایت
+a - Administrator: Full site control
+ب - ىویسيدگان : فقط انکان ویرایش و ثتت نطالب، ثتت و ویرایش دست اٌی نطالب، ثتت و
+ویرایش ةرچسب اٌی نطالب
+b - Authors: Only the ability to edit and add contents, register and edit categories, register and edit tags
+ج - کارةران : فقط انکان ثتت ىام و ویرایش پروفایل خود را دارىد
+c - Users: can only register and edit their profile
+تهام کارةران دارای ایو فیلد اٌ نی ةاصيد ىام، تاریخ تولد، ایهیل و صهاره تلفو نی ةاصيد و
+هٌچيیو یک سیستم سطح دسترسی وجود داصت ةاصد ک ةتوان در آن ىقش اٌ را تعریف کرد
+All users have these fields: name, date of birth, email and phone number, and there is also an access level system that can define roles .
+2. نطالب ک صانل فیلد اٌی تصویر ىوصت ،ً عيوان ىوصت ،ً نتو ىوصت ،ً چکیده و تاریخ ایجاد و
+ثتت نی ةاصيد
+2. Content that includes the image fields, the title , the text of the article, the abstract and the date of creation and registration
+رٌ نطلب نی تواىد یک دست داصت ةاصد
+Each content can have a category
+رٌ ىوصت نی تواىد چيد ةرچسب داصت ةاصد
+Each content can have one or more tags
+3. دست ةيدی نطالب صانل فیلد اٌی ىام ةاصد
+3. Category content include names fields
+4. ةرچسب فقط صانل ىام ةاصد
+4. The tag only contains the name
+5. تيظیهات سایت فقط صانل فیلد اٌی ىام سایت، لوگو و فوتر نی ةاصد
+5. Site settings only include site name, logo and font
+6. ةخضی ةرای تعییو سطح دسترسی ةاصد
+6. Part to determine the level of access
+ةرىان لازم ىیست گرافیک فوق العاده ایی داصت ةاصد انا راةط نياستی داصت ةاصد و ساده و زیتا
+ةاصد ةیضتر تهرکز روی انکاىات ةاصد
+The program does not need to have a great graphics, but it's a good interface and it's simple and beautiful to focus more on features .
+
+```
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
@@ -31,21 +55,4 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 
 We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
 
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+- **[Ahmad W Khan](http://AhmadWKhan.com)**
