@@ -50,8 +50,8 @@ The program does not need to have a great graphics, but it's a good interface an
 - **Rename the .env.example file to .env**
 - **Enter database credentials in the .env file**
 - **Go to public folder and delete the "Storage" symlink**
-- **Open terminal in the projet directory and type php artisan storage:link to create new symlink**
-- **Login with the admin credentials : email - admin@koolcmsc.om | password - 654321**
+- **Open terminal in the projet directory and type " php artisan storage:link " to create new symlink**
+- **Login with the admin credentials : email - admin@koolcms.om | password - 654321**
 - **That's it. Surf around the app and please do suggest improvements.**
 
 
