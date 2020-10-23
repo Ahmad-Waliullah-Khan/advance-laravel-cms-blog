@@ -1,8 +1,8 @@
 ## Advance CMS/Blog Web Application using Laravel
 
-This was an assignment challenge, built within 2 days using Laravel.
+A blog/cms project in Laravel
 
-The following was the requirement for the application :
+Requirement for the application :
 
 ```php
 
